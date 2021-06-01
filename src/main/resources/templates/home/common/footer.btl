@@ -1,0 +1,8 @@
+<footer>
+    <div class="footBase">
+        <h3>热线电话： 18080028041（上午9：00至12:00）（下午14:30至17:30）
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></h3>
+        <p style="text-align:center;font-size:22px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Writer-Mr.huang &nbsp;&nbsp;&nbsp;&nbsp;计算机科学与技术 &nbsp;&nbsp;&nbsp;&nbsp;@逆风boy</p>
+        <div class="QRcode"><img src="${ctxPath}/images/QRcode1.jpg" width="104" height="104"><br/>手机扫一扫关注官方微信</div>
+    </div>
+</footer

@@ -1,0 +1,143 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>内科</title>
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=/noscript.htm"/>
+    </noscript>
+    <link rel="stylesheet" href="${ctxPath}/css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="${ctxPath}/css/secondary.css" type="text/css"/>
+    <script language="javascript" type="text/javascript" src="${ctxPath}/js/KunyiHTML5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="${ctxPath}/js/Kunyilibrary.js"></script>
+</head>
+<body>
+
+<!-- 引入公共头部开始 -->
+<% include("common/header.btl"){} %>
+<!-- 引入公共头部结束 -->
+
+<section class="listbanner banner09">
+    <div class="banner">
+        <div class="title"><h3>Hospital Profile</h3>
+            <h2>科室信息</h2></div>
+    </div>
+</section>
+<section class="BaseMark listmain">
+    <div class="bread">当前位置：<a href="/hospital">首页</a> > 科室信息</div>
+    <div class="listleft">
+        <div class="slidebar">
+
+        </div>
+        <div class="QRcode"><span>手机扫一扫关注</span><br/>人民医院官方微信</div>
+
+    </div>
+    <div class="listright">
+        <div class="title">内科</div>
+          <div style="height:3px;background:#00c9b7;margin-top:10px">
+           </div>
+        <div class="listnews">
+      <div class="main container clearfix">
+       <section class="content_w850">
+        <h1>心内科一病区</h1>
+     <!-- <a class="position">内科</a>-->
+      <div class="content-inf">发布时间：2019-10-30 09:22:38&nbsp;&nbsp;作者：本站编辑&nbsp;&nbsp;来源：本站原创&nbsp;&nbsp;浏览总量:<span id="pv"></span><span id="views"></span>
+</div>
+<div class="content-txt">
+<p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px">
+<span style="font-family:微软雅黑">山西煤炭中心医院心血管内科创建于</span>1998年。科室位于住院大楼五层，分为冠心病监护病房及住院病房部分，床位数49张。医务人员35人：正高职称3人，副高职称1人，中级职称6人，医师护师25人。</span></p>
+<p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px">
+<span style="font-family:微软雅黑">配备标准化的冠心病监护室、抢救室、导管室。设施有</span>GE公司产起搏除颤仪，麦瑞公司产中心监护系统，GE运动心电图平板机，GEinnova3100平板数字减影血管造影机，主动脉内气囊反搏机，锦江产64导电生理仪，射频机及心脏彩超，移动式床旁心脏彩超，中心供氧、。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+<p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px"><span style="font-family:微软雅黑">一、开展高科技微创冠心病介入治疗</span></span></p>
+<p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px">2006年以来开展高科技微创介入治疗。其中冠心病冠脉造影、稳定性、不稳定性心绞痛、急性心肌梗死急诊直接介入治疗、陈旧性心肌梗死的支架置入术，慢性闭塞病变（CTO）的支架置 ，</span></p>
+<p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px">
+<span style="font-family:微软雅黑">主动脉内气囊反搏（</span>IABP）等共1500余例。</span></p>
+<p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px">
+<span style="font-family:微软雅黑">二、心律失常的介入治疗</span></span></p>
+<p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px">1992年始开展缓慢性心律失常、病态窦房结综合症，Ⅱ度Ⅱ型房室传导阻滞，Ⅲ度房室传导阻滞。单、双腔心脏起搏器置入术，顽固性心衰三腔起搏器左右心室再同步化治疗（CRT）等共300余例。</span></p>
+<p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px">
+<span style="font-family:微软雅黑">三、心律失常的射频介入治疗是室快速性心律失常、室上</span>
+<span style="font-family:微软雅黑">心动过速、室性心动过速及心房颤动最有效的根治方法。本科已开展。</span></span>
+</p><p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)"><span style=";font-family:微软雅黑;font-size:14px">
+<span style="font-family:微软雅黑">四、先天性心脏病、房间隔缺损、室间隔缺损、动脉导管未闭的介入治疗，整个过程无需开刀，全程</span>20分钟即完成，术后无疤痕。本科已开展10余例。</span></p>
+<p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px">
+<span style="font-family:微软雅黑">五、本科积极引进先进的诊疗理念及诊疗技术。以中华医学会心血管疾病诊治的一系列指南为依据，积极开展以</span>rt-PA为代表的急性心肌梗死的溶栓治疗，成功率达99%。</span></p><p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px">
+<span style="font-family:微软雅黑">六、对各种心脏疾病导致的顽固性心衰药物治疗及</span>CRT治疗</span></p>
+<p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px">
+<span style="font-family:微软雅黑">七、心血管常见疾病如：高血压、高血脂、肺栓塞等疾病的药物治疗。</span></span></p>
+<p style="text-align: center;">
+<img src="http://www.sxmy.org:80/u/cms/www/201910/302047531k6u.png" title="图片1.png" alt="图片1.png"/></p>
+<p style="text-indent:32px;text-align:center;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px"><span style="font-family:微软雅黑">美国</span>GE3100平板血管造影机</span></p>
+<p style="text-indent: 32px; line-height: 24px; background: rgb(255, 255, 255);">
+<span style=";font-family:微软雅黑;font-size:14px"><br/></span></p>
+<p style="text-indent: 32px; line-height: 24px; background: rgb(255, 255, 255);">
+<span style=";font-family:微软雅黑;font-size:14px"><br/></span></p>
+<p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px">
+<span style="font-family:微软雅黑">介入导管室占地面积</span>100余平米，手术间40余平米。</span></p>
+<p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px">
+<span style="font-family:微软雅黑">配备</span>GEinnova3100平板数字减影血管造影机，主动脉内气囊反搏机，锦江产64导电生理仪，射频机、GE除颤仪1台、抢救车1台、吸引器1台AEON7400A麻醉机1台。</span></p>
+<p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px"><br/></span></p>
+<p style="text-indent:32px;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px"><br/></span></p><p style="text-align: center;">
+<img src="http://www.sxmy.org:80/u/cms/www/201910/30204853mdj8.png" title="图片2.png" alt="图片2.png"/></p>
+<p style="text-indent:32px;text-align:center;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px"><span style="font-family:微软雅黑">李友文主任在急诊冠脉介入工作中</span></span></p>
+<p style="text-indent: 32px; line-height: 24px; background: rgb(255, 255, 255);">
+<span style=";font-family:微软雅黑;font-size:14px">
+<span style="font-family:微软雅黑"><br/></span></span></p>
+<p style="text-indent: 32px; line-height: 24px; background: rgb(255, 255, 255);">
+<span style=";font-family:微软雅黑;font-size:14px"><span style="font-family:微软雅黑"><br/></span></span></p>
+<p style="text-indent: 32px; line-height: 24px; background: rgb(255, 255, 255);">
+<span style=";font-family:微软雅黑;font-size:14px">
+<span style="font-family:微软雅黑"><br/></span></span>
+</p>
+<p style="text-align: center;"><img src="http://www.sxmy.org:80/u/cms/www/201910/30205118c81h.png" title="图片5.png" alt="图片5.png"/></p>
+<p style="text-indent:32px;text-align:center;line-height:24px;background:rgb(255,255,255)">
+<span style=";font-family:微软雅黑;font-size:14px"><span style="font-family:微软雅黑">干</span>
+ <span style="font-family:微软雅黑">净</span> <span style="font-family:微软雅黑">整</span>
+  <span style="font-family:微软雅黑">洁</span> <span style="font-family:微软雅黑">的</span>
+  <span style="font-family:微软雅黑">病</span> <span style="font-family:微软雅黑">区</span></span></p><p><br/></p><p><br/></p>
+  <p style="text-align: center;">
+  <img src="http://www.sxmy.org:80/u/cms/www/201910/30205218jejy.png" title="图片6.png" alt="图片6.png"/></p>
+<div class="clear">
+</div>
+</section>
+<div class="footer">
+			<div class="footer_main">
+				<div class="footer_zb">
+				</div>
+			</div>
+
+		</div>
+<div id="Footer_CodeDiv">
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?4738677607aa7c5dccf1fe9c9a1c4d18";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</div>
+<script language="javascript" type="text/javascript" src="${ctxPath}/js/Kunyi.Common.js"></script>
+<script language="javascript" type="text/javascript" src="${ctxPath}/js/Kunyi.Secondary.js"></script>
+
+</body>
+</html>

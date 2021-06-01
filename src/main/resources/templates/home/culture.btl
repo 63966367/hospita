@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>公司文化</title>
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=/noscript.htm"/>
+    </noscript>
+    <link rel="stylesheet" href="${ctxPath}/css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="${ctxPath}/css/secondary.css" type="text/css"/>
+    <script language="javascript" type="text/javascript" src="${ctxPath}/js/KunyiHTML5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="${ctxPath}/js/Kunyilibrary.js"></script>
+</head>
+<body>
+
+<!-- 引入公共头部开始 -->
+<% include("common/header.btl"){} %>
+<!-- 引入公共头部结束 -->
+
+<section class="listbanner banner07">
+    <div class="banner">
+        <div class="title"><h3>Company Culture</h3>
+            <h2>公司文化</h2></div>
+    </div>
+</section>
+<section class="BaseMark listmain">
+    <div class="bread">当前位置：<a href="/hospital">首页</a> >  公司文化</div>
+    <div class="listleft">
+        <div class="slidebar">
+            <ul>
+                <li class="active"><a href="${ctxPath}/home/culture" title="公司文化"><em></em>公司文化</a></li>
+            </ul>
+        </div>
+        <div class="QRcode"><span>手机扫一扫关注</span><br/>人民医院官方微信</div>
+        <div class="tools"><a class="first" href="javascript:;"><em class="t01"></em>预约挂号</a><a href="/hospital/expert"><em
+                        class="t02"></em>专家介绍</a><a class="first" href="/hospital/service"><em class="t03"></em>科室介绍</a><a
+                    href="/hospital/guide"><em class="t04"></em>就医指南</a></div>
+    </div>
+    <div class="listright">
+        <div class="title">院区环境</div>
+        <div id="DIVContent" class="yywh"><div style="text-align:center;">
+                <img src="${ctxPath}/images/yy01.jpg" alt=""/>
+            </p>
+            <p style="text-align:center;">
+                <br/>
+            </p>
+            <img src="${ctxPath}/images/yy02.jpg" alt=""/>
+            </p>
+            <p style="text-align:center;">
+                <br/>
+            </p>
+
+           </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</section>
+<!-- 引入公共头部开始 -->
+<% include("common/footer.btl"){} %>
+<!-- 引入公共头部结束 -->
+
+<div id="Footer_CodeDiv">
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?4738677607aa7c5dccf1fe9c9a1c4d18";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</div>
+<script language="javascript" type="text/javascript" src="${ctxPath}/js/Kunyi.Common.js"></script>
+<script language="javascript" type="text/javascript" src="${ctxPath}/js/Kunyi.Secondary.js"></script>
+
+</body>
+</html>

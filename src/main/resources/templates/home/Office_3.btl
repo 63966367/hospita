@@ -1,0 +1,159 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>内科</title>
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=/noscript.htm"/>
+    </noscript>
+    <link rel="stylesheet" href="${ctxPath}/css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="${ctxPath}/css/secondary.css" type="text/css"/>
+    <link rel="stylesheet" href="${ctxPath}/css/index.css" type="text/css"/>
+      <link rel="stylesheet" href="${ctxPath}/css/main.css" type="text/css"/>
+    <script language="javascript" type="text/javascript" src="${ctxPath}/js/KunyiHTML5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="${ctxPath}/js/Kunyilibrary.js"></script>
+</head>
+<style>
+.content-inf {
+    width: 76%;
+}
+.content-inf {
+    margin-top: 14px;
+    color: #9a9a9a;
+    font-size: 14px;
+    font-family: "宋体";
+    line-height: 40px;
+    padding-left: 10px;
+    background: #F3F3F3;
+ .content_w850 h1 {
+        color: #1f1f1f;
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .content-txt {
+        width: 76%;
+    }
+    .content-txt {
+        margin-top: 45px;
+        color: #202020;
+        font-size: 16px;
+        line-height: 30px;
+        padding-bottom: 40px;
+    }
+
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+            padding-bottom: 0px;
+            margin: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            border:0px;
+    }
+   }
+</style>
+<body>
+
+<!-- 引入公共头部开始 -->
+<% include("common/header.btl"){} %>
+<!-- 引入公共头部结束 -->
+
+<section class="listbanner banner09">
+    <div class="banner">
+        <div class="title"><h3>Hospital Profile</h3>
+            <h2>科室信息</h2></div>
+    </div>
+</section>
+<section class="BaseMark listmain">
+    <div class="bread">当前位置：<a href="/hospital">首页</a> > 科室信息</div>
+    <div class="listleft">
+        <div class="slidebar">
+
+        </div>
+        <div class="QRcode"><span>手机扫一扫关注</span><br/>人民医院官方微信</div>
+
+    </div>
+    <div class="listright">
+<div class="title">内科</div>
+
+							<div style="height:3px;background:#00c9b7;margin-top:10px">
+
+                           </div>
+							<div class="listnews">
+								<div class="main container clearfix">
+									<section class="content_w850">
+										<h1>消化内科</h1>
+										<!-- <a class="position">内科</a>-->
+										<div class="content-inf">发布时间：2021-05-10 21:07:33&nbsp;&nbsp;作者：Mr.huang&nbsp;&nbsp;来源：Mr.huang&nbsp;&nbsp;浏览总量:(5)<span id="pv"></span><span id="views"></span>
+
+										</div>
+										<div class="content-txt">
+											<p style="text-indent:28px"><span style="font-family:宋体">逆风医院消化内科领军科室、太原市重点科室，由消化内镜第一人、全国著名消化内镜专家、省消化内镜专业专业委员会主任委员、省消化学科带头人、享受国务院特殊津贴专家刘教授担任科主任。全科在以刘教授倡导的“接待一个病人、结交一个朋友、进行一项操作、塑造一件精品”的精品医疗文化带领下，将科室打造成为全省消化内科界的旗舰品牌。</span><br/> &nbsp;&nbsp;&nbsp; <span style="font-family:宋体">科室建科十年来，在刘教授的带领下不断努力、开拓创新、精益求精，曾先后被评为“太原市医学重点科室”，“中华医学会消化内镜专科医师培训中心培训基地”，创造了中华医学会在全省培训基地挂牌零的突破，并于</span>2010-2011<span style="font-family:宋体">年期间发起“省消化内镜在岗医师规范化培训工程”，该工程山西首创，全国罕见，共举办培训班</span>10<span style="font-family:宋体">期，培训基层内镜医务工作者</span>500<span style="font-family:宋体">余名，覆盖全省全部</span>11<span style="font-family:宋体">个地市，</span>150<span style="font-family:宋体">余家医院，效果显著，全面提升了山西省消化内镜整体水平，培训工程得到省、市及卫计委领导的高度赞扬和肯定。目前正在积极举办消化内镜高级培训班系列活动，将刘教授倡导的精品医疗文化风吹遍全省，造福</span>3600<span style="font-family:宋体">万三晋百姓。</span><br/> &nbsp;&nbsp;&nbsp; <span style="font-family:宋体">科室可诊治食管、胃、肠等各种消化道及肝、胆、胰等各种消化脏器疾病，特别是以内镜下的检查诊断及微创治疗为特色，目前开展各项消化内镜诊治技术</span>40<span style="font-family:宋体">余项，其中近</span>30<span style="font-family:宋体">项与国际接轨，达到全国先进水平，特别是在消化道早癌的早诊早治方面成绩斐然，成为消化内镜界优质品牌。科室注重梯队人才培养，长期聘请十五名全国著名消化疾病及消化内镜专家作为客座教授，目前已经建立起一支优质高效、分工明确、严格规范的省内顶尖的精品医疗团队。现开展诊治项目主要有：无痛苦胃肠镜检查术</span>; <span style="font-family:宋体">超细胃镜经鼻检查术；胶囊内镜、双气囊内镜小肠检查术；早期消化道肿瘤的内镜下切除术</span>(EMR/ESD)<span style="font-family:宋体">、内镜粘膜下挖除术（</span>ESE<span style="font-family:宋体">）和内镜下全层切除术（</span>EFR<span style="font-family:宋体">）；内镜粘膜下建立隧道治疗贲门失弛缓及肿瘤切除术，消化道异物取出术；肝硬化食管胃静脉曲张出血的内镜治疗；消化道息肉的内镜治疗；消化道出血的诊治；小儿内镜检查治疗术；消化道狭窄扩张术和支架置入术；逆行胰胆管造影术（</span>ERCP<span style="font-family:宋体">）；乳头括约肌切开术（</span>EST<span style="font-family:宋体">）；胆、胰管狭窄扩张术；胆、胰管结石取石术；胆、胰管支架置入术治疗阻塞性黄疸和胰腺炎；急性胰腺炎的诊治；胰腺假性囊肿的内镜治疗；胃、空肠营养管置入术；经胃镜胃、空肠造瘘术；超声内镜检查术；超声内镜下细针穿刺术；</span>B<span style="font-family:宋体">超声及</span>X<span style="font-family:宋体">光引导下的介入诊疗；幽门螺杆菌检测；肝脏储备功能检测；胃排空功能检测；结肠清洁灌洗等。</span><br/> &nbsp;&nbsp;<span style="font-family:宋体">近年来，科室多次获得“山西省自然科学基金”“山西省科技攻关项目”，多项自主科研及与相关单位合作科研项目成果达到国内先进水平。多次举办全国性及山西省消化内科内镜会议，包括承办“第二届全国小肠疾病学术会议”、“全国食管胃静脉曲张及其伴发疾病诊治研讨会”、“第二届中国消化内镜隧道技术论坛”等；多次承办“山西省消化内镜年会”及省内学术交流会议，大力推动消化内镜学科快速发展，受到省内外同仁一致好评。</span><br/> &nbsp; &nbsp;&nbsp;<span style="font-family:宋体">消化内科在刘教授的带领下，从未停止前进的步伐，力争打造并维持国内领先的业务团队，为保障百姓健康，推动医学技术发展不懈努力。</span></p><p><br/></p>
+										</div>
+
+										<!--<div class="content-link clearfix">
+						<span class="prev-content"><i></i>上一篇：<a href="http://www.sxmy.org/nk/176.jhtml">神经内科</a></span>
+						<span class="next-content">下一篇：<a href="http://www.sxmy.org/nk/174.jhtml">心内科二病区</a><i></i></span>
+					</div>-->
+
+										<script>
+											$(document).ready(function() {
+												$(".comments-hf").click(function() {
+													$(this).toggleClass("reply-on");
+													$(this).parent().siblings(".reply").animate({
+														height: 'toggle'
+													}, 300)
+												})
+											})
+										</script>
+									</section>
+
+								</div>
+							</div>
+
+							<!-- AspNetPager 7.3.2  Copyright:2003-2010 Webdiyer (www.webdiyer.com) -->
+							<div id="anpNews">
+							<a class="FLBtn" disabled="disabled" style="margin-right:5px;">&nbsp;</a>
+							<a class="PNBtn" disabled="disabled" style="margin-right:5px;">&nbsp;</a><span class="cpd" style="margin-right:5px;">1</span>
+							<a href="/NewsList-35-2.html" style="margin-right:5px;">2</a>
+							<a class="PNBtn" href="/NewsList-35-2.html" style="margin-right:5px;">上一页</a>
+							<a class="FLBtn" href="/NewsList-35-2.html" style="margin-right:5px;"> 尾 页 </a>
+						</div>
+						</div>
+
+					</div>
+
+					<!-- AspNetPager 7.3.2  Copyright:2003-2010 Webdiyer (www.webdiyer.com) -->
+
+				</div>
+<div class="clear">
+</div>
+</section>
+<div class="footer">
+			<div class="footer_main">
+				<div class="footer_zb">
+				</div>
+			</div>
+
+		</div>
+<div id="Footer_CodeDiv">
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?4738677607aa7c5dccf1fe9c9a1c4d18";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</div>
+<script language="javascript" type="text/javascript" src="${ctxPath}/js/Kunyi.Common.js"></script>
+<script language="javascript" type="text/javascript" src="${ctxPath}/js/Kunyi.Secondary.js"></script>
+
+</body>
+</html>

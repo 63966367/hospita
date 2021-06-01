@@ -1,0 +1,136 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>关于我们</title>
+    <meta name="Keywords" content="人民医院,医院,人民医院官网,人民医院"/>
+
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=/noscript.htm"/>
+    </noscript>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="${ctxPath}/css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="${ctxPath}/css/secondary.css" type="text/css"/>
+    <script language="javascript" type="text/javascript" src="${ctxPath}/js/KunyiHTML5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="${ctxPath}/js/Kunyilibrary.js"></script>
+    <link rel="stylesheet" href="${ctxPath}/css/lxwm.css" type="text/css"/>
+
+</head>
+<body>
+
+<!-- 引入公共头部开始 -->
+<% include("common/header.btl"){} %>
+<!-- 引入公共头部结束 -->
+
+<section class="listbanner banner09">
+    <div class="banner">
+        <div class="title"><h3>About Us</h3>
+            <h2>关于我们</h2></div>
+    </div>
+</section>
+<section class="BaseMark listmain">
+    <div class="bread">当前位置：<a href="/hospital">首页</a> > <a href="${ctxPath}/home/join">关于我们</a> > 加入我们</div>
+    <div class="listleft">
+        <div class="slidebar">
+            <ul>
+                <li class="active"><a href="${ctxPath}/home/join" title="关于我们"><em></em>关于我们</a></li>
+                <li><a href="http://www.niwind.com/about.html;" title="公司简介"><em></em>公司简介</a></li>
+                <li><a href="${ctxPath}/home/news" title="公司文化"><em></em>公司文化</a></li>
+                 <li><a href="${ctxPath}/home/newslist" title="公司新闻"><em></em>公司新闻</a></li>
+
+            </ul>
+        </div>
+        <div class="QRcode"><span>手机扫一扫关注</span><br/>人民医院官方微信</div>
+        <div class="tools"><a class="first" href="${ctxPath}/home/join"><em class="t01"></em>关于我们</a><a href="${ctxPath}/home/expert"><em
+                        class="t02"></em>专家介绍</a><a class="first" href="${ctxPath}/home/service"><em class="t03"></em>公司简介</a><a
+                    href="${ctxPath}/home/news"><em class="t04"></em>公司文化</a></div>
+    </div>
+ </div>
+ 		<div class="conbox">
+ 		<ul class="lxfs">
+ 			<li>
+ 			<img src="${ctxPath}/images/联系我们/phone.png">
+
+ 			</li>
+ 			<li>
+ 				<img src="${ctxPath}/images/联系我们/ren.png">
+ 			</li>
+ 			<li>
+ 				<img src="${ctxPath}/images/联系我们/emall.png">
+ 			</li>
+ 			<li>
+ 				<img src="${ctxPath}/images/联系我们/qq.png">
+ 			</li>
+ 		</ul>
+ 			<ul class="lxxq">
+ 				<li>联系我们</li>
+ 				<li>电话：0755-8203228</li>
+ 				<li>地址：广州逆风医疗科技公司</li>
+ 				<li>邮编：516600</li>
+ 				<li>邮箱：1787718318@qq.com</li>
+ 				<li>官网：www.nifengyiliao.com</li>
+ 			</ul>
+
+ 			<div style=" width:auto; margin:0 auto;position: relative; overflow:hidden;">
+ 				<img src="${ctxPath}/images/联系我们/timg.jpg">
+ 			</div>
+ 			<div class="lyb">
+ 				<p>建议我们<br>
+ 				<small>如果您有任何意见或建议，请给我们送上您真挚的留言，我们会在一个工作日内回复您！完成您真挚建议的反馈！</small>
+ 				</p>
+ 				<ul class="lxbd">
+ 					<li>姓名：<input type="text"></li>
+ 					<li>邮箱：<input type="text"></li>
+ 					<li>联系方式：<input type="text"></li>
+ 				</ul>
+ 				<textarea class="liuyan">
+ 				</textarea>
+ 				<button class="tijiao">
+ 					提交
+ 				</button>
+ 			</div>
+ 	</div>
+ 	<div class="info_search">
+      <ul class="info_search_l">
+         <li>友情链接：
+         <select name="pageselect" onchange="self.location.href=options[selectedIndex].value" >
+           <option value ="http://www.baidu.com">百度</option>
+           <option value ="https://www.google.cn">谷歌</option>
+           <option value="https://hao.360.com">360</option>
+           <option value="https://www.sogou.com">搜狗</option>
+         </select>
+         </li>
+         <li>合作平台：
+         <select name="pageselect" onchange="self.location.href=options[selectedIndex].value" >
+           <option value ="https://www.google.cn">谷歌</option>
+           <option value ="http://www.baidu.com">百度</option>
+           <option value="https://hao.360.com">360</option>
+           <option value="https://www.sogou.com">搜狗</option>
+         </select>
+         </li>
+     </ul>
+     <div class="info_search_r"> <a href="https://s.weibo.com"><img src="${ctxPath}/images/联系我们/icon5.png"/><span>新浪微博</span></a> <a href="https://wx.qq.com/"><img src="${ctxPath}/images/联系我们/icon6.png"/><span>微信</span></a></div>
+
+    <div class="clear"></div>
+</section>
+<!-- 引入公共尾部开始 -->
+<% include("common/footer.btl"){} %>
+<!-- 引入公共尾部结束 -->
+
+<div id="Footer_CodeDiv">
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?4738677607aa7c5dccf1fe9c9a1c4d18";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</div>
+<script language="javascript" type="text/javascript" src="${ctxPath}/js/Kunyi.Common.js"></script>
+<script language="javascript" type="text/javascript" src="${ctxPath}/js/Kunyi.Secondary.js"></script>
+</body>
+</html>

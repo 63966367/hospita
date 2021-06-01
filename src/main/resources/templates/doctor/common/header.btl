@@ -1,0 +1,12 @@
+<header>
+    <a class="logo" href="/hospital"><img src="${ctxPath}/images/logo01.png" width="350" height="81"/></a>
+</header>
+<ul class="layui-nav layui-bg-blue" style="padding-left: 125px;">
+    <li class="layui-nav-item layui-this" style="margin-left: 100px;"><a href="${ctxPath}/patient/index">首页</a></li>
+    <li class="layui-nav-item" lay-unselect="" style="float: right;margin-right: 200px;">
+        <a href="javascript:;"><span style="font-weight: bold;">${doctor.name}</span>&nbsp;医生</a>
+        <dl class="layui-nav-child">
+            <dd><a href="${ctxPath}/home/user/logout">退出登录</a></dd>
+        </dl>
+    </li>
+</ul>

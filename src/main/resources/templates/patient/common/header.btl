@@ -1,0 +1,15 @@
+<header>
+    <a class="logo" href="/hospital"><img src="${ctxPath}/images/logo01.png" width="350" height="80"/></a>
+</header>
+<ul class="layui-nav layui-bg-blue" style="padding-left: 125px;">
+    <li class="layui-nav-item layui-this"><a href="${ctxPath}/patient/index">首页</a></li>
+    <li class="layui-nav-item"><a href="${ctxPath}/patient/search">查询</a></li>
+    <li class="layui-nav-item"><a href="${ctxPath}/patient/medicalHistory">病史</a></li>
+    <li class="layui-nav-item"><a href="${ctxPath}/patient/hospitalization">住院</a></li>
+    <li class="layui-nav-item" lay-unselect="">
+        <a href="javascript:;">${session.user.username}</a>
+        <dl class="layui-nav-child">
+            <dd><a href="${ctxPath}/home/user/logout">退出登录</a></dd>
+        </dl>
+    </li>
+</ul>

@@ -1,0 +1,123 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>内科</title>
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=/noscript.htm"/>
+    </noscript>
+    <link rel="stylesheet" href="${ctxPath}/css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="${ctxPath}/css/secondary.css" type="text/css"/>
+     <link rel="stylesheet" href="${ctxPath}/css/index.css" type="text/css"/>
+    <script language="javascript" type="text/javascript" src="${ctxPath}/js/KunyiHTML5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="${ctxPath}/js/Kunyilibrary.js"></script>
+</head>
+<style>
+.content-inf {
+    width: 76%;
+}
+.content-inf {
+    margin-top: 14px;
+    color: #9a9a9a;
+    font-size: 14px;
+    font-family: "宋体";
+    line-height: 40px;
+    padding-left: 10px;
+    background: #F3F3F3;
+ .content_w850 h1 {
+        color: #1f1f1f;
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .content-txt {
+        width: 76%;
+    }
+    .content-txt {
+        margin-top: 45px;
+        color: #202020;
+        font-size: 16px;
+        line-height: 30px;
+        padding-bottom: 40px;
+    }
+
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+            padding-bottom: 0px;
+            margin: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            border:0px;
+    }
+   }
+</style>
+<body>
+
+<!-- 引入公共头部开始 -->
+<% include("common/header.btl"){} %>
+<!-- 引入公共头部结束 -->
+
+<section class="listbanner banner09">
+    <div class="banner">
+        <div class="title"><h3>Hospital Profile</h3>
+            <h2>科室信息</h2></div>
+    </div>
+</section>
+<section class="BaseMark listmain">
+    <div class="bread">当前位置：<a href="/hospital">首页</a> > 科室信息</div>
+    <div class="listleft">
+        <div class="slidebar">
+
+        </div>
+        <div class="QRcode"><span>手机扫一扫关注</span><br/>人民医院官方微信</div>
+
+    </div>
+    <div class="listright">
+<div class="title">内科</div>
+							<div style="height:3px;background:#00c9b7;margin-top:10px">
+                           </div>
+							<div class="listnews">
+								<div class="main container clearfix">
+									<section class="content_w850">
+										<h1>心内科二病区</h1>
+										<div class="content-inf">发布时间：2021-04-30 21:01:17&nbsp;&nbsp;作者：Mr.huang&nbsp;&nbsp;来源：Mr.huang&nbsp;&nbsp;浏览总量:<span id="pv"></span><span id="views"></span>
+										</div>
+										<div class="content-txt">
+										<p style="text-indent:28px"><span style="font-family:宋体">逆风医院心内科二病区，现有床位</span>34<span style="font-family:宋体">Dr.huang，主任医师</span>1<span style="font-family:宋体">名，副主任医师</span>1<span style="font-family:宋体">名，主治医师</span>3<span style="font-family:宋体">名，住院医师</span>2<span style="font-family:宋体">名。科室现有国内外先进仪器设备多台，在开展高血压，冠心病，心肌病，心力衰竭，风湿性心脏瓣膜病，感染性心内膜炎，心包炎等心血管常见病诊疗基础上，还开展急性心肌梗死溶栓，急性左心衰，主动脉夹层，恶性心律失常，高血压危象等急诊救治，在上级医院专家指导下开通心脏急救绿色通道，能完成急性心肌梗死急诊介入治疗，心脏永久及临时起搏器安置等。科室注重对人才的培养和技术水平的提高，连续有医生外出学习，并鼓励大家参加全国、省、市不同层次的学术交流会，为科室发展打下了扎实的基础，从不同角度提高医护人员的医德，医技，医风。科室提倡发挥团队精神，形成了一支技术过硬，团结互助，责任心强的团队。</span></p><p><br/></p>
+										</div>
+</section>
+                                        </div>
+</div>
+	</div>
+</div>
+<div class="clear">
+</div>
+</section>
+<div class="footer">
+			<div class="footer_main">
+				<div class="footer_zb">
+				</div>
+			</div>
+
+		</div>
+<div id="Footer_CodeDiv">
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?4738677607aa7c5dccf1fe9c9a1c4d18";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</div>
+<script language="javascript" type="text/javascript" src="${ctxPath}/js/Kunyi.Common.js"></script>
+<script language="javascript" type="text/javascript" src="${ctxPath}/js/Kunyi.Secondary.js"></script>
+
+</body>
+</html>

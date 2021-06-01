@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+<meta charset="UTF-8">
+<title>登录&注册</title>
+<!--图标样式-->
+<link rel='stylesheet' href='${ctxPath}/css/all.min.css'>
+
+<link rel="stylesheet" href="${ctxPath}/css/style.css">
+
+</head>
+
+<body>
+  <h2>逆风医疗管理系统</h2>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="/regist" id="regest" onsubmit="return regest()">
+			<h1>注册</h1>
+			<input type="certId" name="certId" placeholder="身份证号(若注册管理员则不需要)" />
+			<input type="username" name="username" placeholder="用户账号" />
+			<input type="password" name="password" placeholder="用户密码" />
+			<input type="password" name="password" placeholder="确认密码" />
+			<input type="number" name="number" placeholder="手机号（选填）" />
+			<div>
+			<button type="submit">注册</button><button type="reset">重置</button>
+			</div>
+			<span id="message2" style="color: red"></span>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form  id="login" onsubmit="return login()">
+			<h1>登录</h1>
+			<input type="username" name="username" placeholder="账号" value="admin1"/>
+			<input type="password"  name="password" placeholder="密码" value="123456"/>
+				<input type="password" name="password" placeholder="确认密码" value="123456"/>
+			<div>
+				<button type="submit">登录</button><button type="reset">重置</button>
+			</div>
+			<span id="message" style="color: red"></span>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>欢迎进入逆风登录页面</h1>
+				<p>请输入正确账号进行登录</p>
+				<button class="ghost" id="signIn">登录</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>欢迎进入逆风医疗注册页面</h1>
+				<p>输入您的相关正确信息进行注册</p>
+				<button  class="ghost" id="signUp">注册</button>
+			</div>
+		</div>
+	</div>
+</div>
+  <script src="${ctxPath}/js/layui.all.js"></script>
+  <script src="${ctxPath}/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript">
+	  function regest(){
+		  var d = {};
+		  var t = $('#regest').serializeArray();
+		  $.each(t, function() {
+			  d[this.name] = this.value;
+		  });
+		  var json=JSON.stringify(d);
+		  $.ajax({
+			  url:"${ctxPath}/home/user/register",
+			  type:'post',
+			  data:json,
+			  contentType: "application/json;charset=utf-8",
+			  success:function(data){
+				  console.log(data.message);
+				  if(data.code=="102" || data.code=="103" || data.code=="104"){
+					  alert('注册成功！！！\n请返回登录页面进行登录或继续注册')
+					  location.href="${ctxPath}/home/user/login";
+				  }
+				  else {
+					  $("#message2").text(data.message);
+				  }
+			  },
+			  error:function (data) {
+				  layer.msg(data.message, {
+					  time: 2000, //2s后自动关闭
+				  });
+			  }
+		  });
+		  return false
+	  }
+	  function login(){
+		  var d = {};
+		  var t = $('#login').serializeArray();
+		  $.each(t, function() {
+			  d[this.name] = this.value;
+		  });
+		  var json=JSON.stringify(d);
+		  $.ajax({
+			  url:"${ctxPath}/home/user/login",
+			  method:'post',
+			  data:json,
+			  contentType: "application/json;charset=utf-8",
+			  success:function(data){
+			  		console.log(data.code);
+			  		if (data.code == '202') {//用户登录成功
+						//判断角色，跳转至不同的视图中
+						if (data.message == '1') { //管理员
+							window.location.href = "${ctxPath}/admin/index";
+						} else if(data.message == '2'){//医生
+							window.location.href = "${ctxPath}/doctor/index";
+						} else {//患者
+							window.location.href = "${ctxPath}/patient/index";
+						}
+ 					} else {
+						$("#message").text(data.message);
+					}
+			  },
+			  error:function (data) {
+				  layer.msg(data.message, {
+					  time: 2000, //2s后自动关闭
+				  });
+			  }
+		  });
+		  return false
+	  }
+  </script>
+<script  src="${ctxPath}/js/index.js"></script>
+</body>
+</html>
